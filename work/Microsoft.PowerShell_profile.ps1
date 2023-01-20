@@ -1,3 +1,5 @@
+[console]::InputEncoding = [console]::OutputEncoding = [System.Text.UTF8Encoding]::new()
+
 Import-Module posh-git
 Import-Module Terminal-Icons
 
