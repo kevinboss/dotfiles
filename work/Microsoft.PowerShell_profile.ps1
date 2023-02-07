@@ -6,7 +6,7 @@ Import-Module Terminal-Icons
 # PSReadLine
 Set-PSREadLineOption -PredictionSource History
 
-Invoke-Expression (oh-my-posh --init --shell pwsh --config C:\Users\kebo\scoop\apps\oh-my-posh\current\themes\blue-owl.omp.json)
+Invoke-Expression(oh-my-posh init pwsh --config "$(scoop prefix oh-my-posh)\themes\onehalf.minimal.omp.json")
 
 # Alias
 Set-Alias vim nvim
